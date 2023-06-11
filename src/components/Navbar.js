@@ -24,8 +24,8 @@ function Navbar() {
       </div>
       <div className="rightSide">
         <Link to="/"> Ballina </Link>
-        <Link to="/menu"> Restaurantet </Link>
-          <Link to="/menu"> Këngëtarët </Link>
+        <Link to="/restaurants"> Restaurantet </Link>
+          <Link to="/singers"> Këngëtarët </Link>
         <Link to="/about"> Rreth nesh </Link>
         <Link to="/contact"> Kontakti </Link>
         <button onClick={toggleNavbar}>

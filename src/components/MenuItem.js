@@ -7,10 +7,7 @@ function MenuItem({ image, name, price,description, link}) {
       <h1> {name} </h1>
       <p> ${price} </p>
       <p> {description} </p>
-      <p> {link} </p>
-
-
-
+      <p className="link"> {link} </p>
     </div>
   );
 }

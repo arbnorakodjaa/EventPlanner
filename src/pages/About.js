@@ -1,4 +1,6 @@
 import React, { Fragment,useState } from "react";
+import Flowers from "../assets/bg-02.jpg";
+
 import "../styles/About.css";
 
 const About = () =>{
@@ -11,7 +13,10 @@ const About = () =>{
       <section className ="about">
       <div className="row">
         <div className="column">
-          <div className="about-img"></div>
+          <div className="about-img" style={{ backgroundImage: `url(${Flowers})` }}>
+          
+
+          </div>
         </div>
         <div className="column">
         <div className="tabs">
